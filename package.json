@@ -1,0 +1,26 @@
+{
+  "name": "dir-in-path-cli",
+  "version": "1.0.0",
+  "description": "Check if directory is in $PATH",
+  "bin": {
+    "dir-in-path": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jceb/dir-in-path-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "path",
+    "test"
+  ],
+  "author": "Jan Christoph Ebersbach <jceb@e-jc.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jceb/dir-in-path-cli/issues"
+  },
+  "homepage": "https://github.com/jceb/dir-in-path-cli#readme"
+}
