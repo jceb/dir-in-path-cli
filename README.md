@@ -23,7 +23,7 @@ yarn global add dir-in-path-cli
 or use [deno](https://deno.land) to run it without installation:
 
 ```
-deno run https://deno.land/x/dir_in_path_cli/dir-in-path.js
+deno run --allow-env=PATH --allow-read https://deno.land/x/dir_in_path_cli/dir-in-path.js
 ```
 
 ## Usage
