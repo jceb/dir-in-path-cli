@@ -1,6 +1,6 @@
 {
   "name": "dir-in-path-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if directory is in $PATH",
   "bin": {
     "dir-in-path": "cli.js"

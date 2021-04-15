@@ -14,8 +14,16 @@ Check if directory is in path
 
 ## Install
 
+Install via npm:
+
 ```
 yarn global add dir-in-path-cli
+```
+
+or use [deno](https://deno.land) to run it without installation:
+
+```
+deno run https://deno.land/x/dir_in_path_cli/dir-in-path.js
 ```
 
 ## Usage
