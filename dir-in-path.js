@@ -4,10 +4,13 @@
 
 import * as path from "https://deno.land/std@0.93.0/path/mod.ts";
 
+const VERSION = "1.0.3"
+
 if (
   Deno.args.length === 1 &&
   ["-v", "--version"].includes(Deno.args[0])
 ) {
+  console.log(VERSION);
   Deno.exit(0);
 } else if (Deno.args.length < 1) {
   console.log("Usage: dir-in-path DIR...");
